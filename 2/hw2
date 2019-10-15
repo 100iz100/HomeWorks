@@ -1,0 +1,9 @@
+let letters = [];
+let str = 'Backend As A Service';
+let str2= str.split (' ');
+for (let i of str2) {
+    letters.push (i[0]);
+}
+let result = letters.join ('');
+console.log (result)
+
